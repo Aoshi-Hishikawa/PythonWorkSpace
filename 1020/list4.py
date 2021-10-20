@@ -1,0 +1,6 @@
+n=input("整数を入力してください")
+nli=list(range(1,int(n)+1))
+nsum=sum(nli)
+navg=nsum/len(nli)
+print("1~"+n+"までの合計："+str(nsum))
+print("平均："+str(navg))
